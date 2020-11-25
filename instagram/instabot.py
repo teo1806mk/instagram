@@ -23,8 +23,7 @@ for x in range(1000):
     time.sleep(1)
     comment().click()
     time.sleep(4)
-    #messages = ['good luck', 'kalh thxh', 'makari kerdiso', 'hi', 'hello', 'its me mario']
-    mes ="@marianna_vouraki @tasoskeramaris @karipidis_a"
+    mes ="name for tags"
     comment().send_keys(mes)
     time.sleep(2)
     post= driver.find_element_by_css_selector("#react-root > section > main > div > div.ltEKP > article > div.eo2As > section.sH9wk._JgwE > div.RxpZH > form > button").click()
